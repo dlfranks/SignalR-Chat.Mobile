@@ -1,0 +1,16 @@
+# SignalR-Chat.Mobile
+A real-time chat application for Android
+![](https://github.com/AKouki/SignalR-Chat/blob/master/Chat.Web/Content/screenshots/android.png)
+
+## Getting Started
+To run this application you need to download and run Chat.Web
+
+### Dependencies
+* [SignalR Android Client](https://github.com/SignalR/java-client)
+* Gson
+* HttpClient
+`android {
+    useLibrary 'org.apache.http.legacy'
+}`
+
+### First Build

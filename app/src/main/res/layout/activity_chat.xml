@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.chat.akouki.chatmobile.ChatActivity">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_constraintBottom_creator="1"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1">
+
+        <GridView
+            android:id="@+id/gvMessages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"></GridView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/editMessage"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/bordered_message_other"
+                android:hint="What's on your mind?"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+
+            <ImageButton
+                android:id="@+id/btnSend"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="centerCrop"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/send"
+                android:padding="15dp"
+                android:layout_centerVertical="true"
+                android:background="#eee"
+                android:text="Button"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

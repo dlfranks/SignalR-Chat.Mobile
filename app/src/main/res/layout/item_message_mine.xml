@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_gravity="right"
+    android:layout_marginRight="2dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="60dp"
+        android:layout_gravity="left"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:minWidth="150dp"
+        android:gravity="right"
+        android:background="@drawable/bordered_message_mine"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtMessageOwner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:gravity="right"
+            android:paddingRight="7dp"
+            android:textColor="#fff"
+            android:text="User"/>
+
+        <TextView
+            android:id="@+id/txtMessageContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#fff"
+            android:text="Content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imgMessageAvatar"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="right"
+            android:src="@drawable/avatar_circle" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>
