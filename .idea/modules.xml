@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Chat.Mobile.iml" filepath="$PROJECT_DIR$/Chat.Mobile.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/signalr-client-sdk/signalr-client-sdk.iml" filepath="$PROJECT_DIR$/signalr-client-sdk/signalr-client-sdk.iml" />
-      <module fileurl="file://$PROJECT_DIR$/signalr-client-sdk-android-release/signalr-client-sdk-android-release.iml" filepath="$PROJECT_DIR$/signalr-client-sdk-android-release/signalr-client-sdk-android-release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SignalR-Chat.Mobile.iml" filepath="$PROJECT_DIR$/SignalR-Chat.Mobile.iml" />
     </modules>
   </component>
 </project>

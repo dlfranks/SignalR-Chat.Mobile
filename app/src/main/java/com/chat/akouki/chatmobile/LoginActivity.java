@@ -17,8 +17,8 @@ import microsoft.aspnet.signalr.client.http.CookieCredentials;
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private String loginUrl = "http://192.168.1.4:2325/Account/Login";
-    private String registerUrl = "http://192.168.1.4:2325/Account/Register";
+    private String loginUrl = "http://localhost:2325/Account/Login";
+    private String registerUrl = "http://localhost:2325/Account/Register";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

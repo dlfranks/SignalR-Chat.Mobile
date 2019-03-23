@@ -37,7 +37,7 @@ public class ChatService extends Service {
     private HubProxy proxy;
     private Handler handler;
 
-    private String serverUrl = "http://192.168.1.4:2325";
+    private String serverUrl = "http://localhost:2325";
     private String hubName = "ChatHub";
 
     @Override
